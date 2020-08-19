@@ -1,13 +1,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
-//! Welcome to units!
+//! Welcome to nbytes!
 //!
-//! The `units` crate exists to provide compile-time evaluation of various
-//! unit conversions. Currently we support conversions of the various suffixes
-//! related to bytes. For example:
+//! The `nbytes` crate exists to provide compile-time evaluation of various
+//! unit conversions to bytes. For example:
 //!
 //! ```rust
-//! use units::bytes;
+//! use nbytes::bytes;
 //!
 //! assert_eq!(bytes![2; KiB], 2048);
 //! assert_eq!(bytes![2; kB], 2000);
