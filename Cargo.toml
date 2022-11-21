@@ -3,6 +3,7 @@ name = "nbytes"
 version = "0.1.0"
 authors = ["Nathaniel McCallum <npmccallum@redhat.com>"]
 edition = "2018"
+rust-version = "1.56"
 license = "Apache-2.0"
 homepage = "https://github.com/enarx/nbytes"
 repository = "https://github.com/enarx/nbytes"
